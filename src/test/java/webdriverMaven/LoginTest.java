@@ -28,6 +28,7 @@ public class LoginTest {
 		driver.findElement(By.name("identifier")).sendKeys("trainer@way2automation.com");
 		//driver.findElement(By.xpath(span(text(),"Next"))).click();
 		//driver.findElement(By.id("password")).sendKeys("sdfdf");
+		driver.findElement(By.id("SignIn")).click();
 	}
 	
 	@AfterSuite
